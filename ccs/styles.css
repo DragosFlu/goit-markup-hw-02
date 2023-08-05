@@ -31,11 +31,13 @@ a:visited {
   color: inherit;
 }
 
+a:focus,
 a:hover,
 a:active {
   color: var(--active-color);
 }
 
+button:focus,
 button:hover,
 button:active {
   background-color: var(--active-color);
